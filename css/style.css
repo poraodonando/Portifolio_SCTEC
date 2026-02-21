@@ -4,11 +4,14 @@
     margin: 0px;
     padding: 0px;
     font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 html, body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(85, 85, 247);
     min-width: 100vh;
+    
     
 }
 body > #tabuleiro-jogo{
@@ -172,7 +175,9 @@ button:hover{
     text-align: center;
 }
 section#pessoal{
-    background-image: url("../imagens/eu.jpg") 
+    background-image: url("../imagens/eu.jpg")
+    
+    
 }
 
 #projetos > p{
@@ -189,14 +194,15 @@ section#pessoal{
     /* background-image: url("../imagens/1-obmep_1.PNG"); */
     background-position: right center;
     animation: troca1 10s infinite;
+
 }
     
 
 
 @keyframes troca1{
-    0%{background-image: url("/imagens/1-obmep_1.PNG");}
-    50%{background-image: url("/imagens/1-obmep_2.PNG");}
-    100%{background-image: url("/imagens/1-obmep_3.PNG");}
+    0%{background-image: url("../imagens/1-obmep_1.PNG");}
+    50%{background-image: url("../imagens/1-obmep_2.PNG");}
+    100%{background-image: url("../imagens/1-obmep_3.PNG");}
 }
 
 #proj_02{
@@ -206,17 +212,17 @@ section#pessoal{
     
 }
 #proj_03{
-    background-image: url("/imagens/4-calculadora_1.PNG");
+    background-image: url("../imagens/4-calculadora_1.PNG");
     background-position: right center;
 }
 
 #proj_04{
-    background-image: url("/imagens/6-noticia_cidade_1.PNG");
+    background-image: url("../imagens/6-noticia_cidade_1.PNG");
     background-position: right center;
     
 }
 #proj_05{
-    background-image: url("/imagens/7-techblog_1.PNG");
+    background-image: url("../imagens/7-techblog_1.PNG");
     /* background-position: right center; */
 }
 
@@ -226,11 +232,11 @@ section#pessoal{
 }
 
 @keyframes troca6{
-    0%{background-image: url("/imagens/8-crazygame_1.PNG");}
-    25%{background-image: url("/imagens/8-crazygame_2.PNG");}
-    50%{background-image: url("/imagens/8-crazygame_3.PNG");}
-    75%{background-image: url("/imagens/8-crazygame_4.PNG");}
-    100%{background-image: url("/imagens/8-crazygame_5.PNG");}
+    0%{background-image: url("../imagens/8-crazygame_1.PNG");}
+    25%{background-image: url("../imagens/8-crazygame_2.PNG");}
+    50%{background-image: url("../imagens/8-crazygame_3.PNG");}
+    75%{background-image: url("../imagens/8-crazygame_4.PNG");}
+    100%{background-image: url("../imagens/8-crazygame_5.PNG");}
 }
 
 #proj_07{
@@ -242,9 +248,9 @@ section#pessoal{
 }
 
 @keyframes troca7{
-    0%{background-image: url("/imagens/9_mochi_1.PNG");}
-    50%{background-image: url("/imagens/9_mochi_2.PNG");}
-    100%{background-image: url("/imagens/9_mochi_3.PNG");}
+    0%{background-image: url("../imagens/9_mochi_1.PNG");}
+    50%{background-image: url("../imagens/9_mochi_2.PNG");}
+    100%{background-image: url("../imagens/9_mochi_3.PNG");}
 }
 
 
@@ -257,9 +263,11 @@ section#pessoal{
 }
 
 @keyframes troca8{
-    0%{background-image: url("/imagens/proj8_1.PNG");}
-    100%{background-image: url("/imagens/proj8_2.PNG");}
+    0%{background-image: url("../imagens/proj8_1.PNG");}
+    100%{background-image: url("../imagens/proj8_2.PNG");}
 }
+
+
 /* CSS do Jogo da velha  */
 
 .tabuleiro{
