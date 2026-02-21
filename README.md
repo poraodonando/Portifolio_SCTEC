@@ -43,3 +43,46 @@ Calculadora criada com HTML, CSS e JavaScript
 *Noticia Cidade
 
 Criação de um portal de noticias utilizando HTML e CSS
+
+*TECH blog
+    Blog desenvolvido em HTML e CSS
+
+
+*Crazy Game
+
+CrazyGame é um jogo de ARG (Alternative Reality Game) em que meus alunos dos cursos de Física, Matemática e Cultura Digital foram desafiados a jogar. Nele cada enigma levaria a outro local estilo CICADA 3301. Neste jogo os alunos deveriam ter um pensamento lógico bem afiado, raciocinio matemático apurado, ter os conceitos de física bem definidos e é claro ter bastante disposição para correr por toda a escola em busca de respostas.
+
+🛠️ Construído com
+HTML 5;
+CSS 3;
+JavaScript;
+Logica de programação
+VsCode
+
+* MOCHI GAME
+
+jogo  de plataforma desenvolvido na game engine GODOT.
+Utiliza as setas para andar e espaço para pular
+
+
+* Museu Nacional
+    Site de ficticio do museu nacional
+
+🛠️ Construído com
+HTML 5;
+CSS 3;
+JavaScript;
+Logica de programação
+VsCode
+
+
+* Jogo da Velha
+
+Projeto criado no curso de Carreira Tech - Trilha Desenvolvimento de Software.
+
+🛠️ Construído com
+HTML 5;
+CSS 3;
+JavaScript;
+Logica de programação
+VsCode
