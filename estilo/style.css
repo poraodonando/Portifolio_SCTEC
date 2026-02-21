@@ -246,6 +246,20 @@ section#pessoal{
     50%{background-image: url("/imagens/9_mochi_2.PNG");}
     100%{background-image: url("/imagens/9_mochi_3.PNG");}
 }
+
+
+#proj_08{
+  /* width: 100vw;
+  height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  animation: troca8 10s infinite;
+}
+
+@keyframes troca8{
+    0%{background-image: url("/imagens/proj8_1.PNG");}
+    100%{background-image: url("/imagens/proj8_2.PNG");}
+}
 /* CSS do Jogo da velha  */
 
 .tabuleiro{
